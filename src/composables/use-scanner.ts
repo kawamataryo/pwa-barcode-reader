@@ -49,7 +49,7 @@ const fetchBook = async (code: string) => {
   return res.data;
 };
 
-export default function useScanner() {
+export const useScanner = () => {
   const resultCode = ref<string>("");
   const isbnCode = ref<string>("");
   const dialog = ref<boolean>(false);
@@ -82,4 +82,4 @@ export default function useScanner() {
     loading,
     showDialog
   };
-}
+};
