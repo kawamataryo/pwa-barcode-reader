@@ -27,7 +27,7 @@
 </template>
 
 <script lang="ts">
-import { createComponent, onMounted, ref } from "@vue/composition-api";
+import { createComponent } from "@vue/composition-api";
 import { useScanner } from "@/composables/use-scanner";
 
 export default createComponent({
