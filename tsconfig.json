@@ -12,7 +12,12 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "vuetify"
+      "vuetify",
+      "quagga"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/quagga/type-definitions/quagga.d.ts"
     ],
     "paths": {
       "@/*": [
